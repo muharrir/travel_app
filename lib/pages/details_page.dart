@@ -22,6 +22,19 @@ class DetailsPage extends StatelessWidget {
                 Image.asset(
                   'assets/image_detail.png',
                 ),
+                Container(
+                  margin: EdgeInsets.only(
+                    top: 60,
+                    left: 30,
+                  ),
+                  height: 20,
+                  width: 20,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage('assets/icon_back.png'),
+                    ),
+                  ),
+                ),
               ],
             ),
             Container(
